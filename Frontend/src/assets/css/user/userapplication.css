@@ -1,0 +1,193 @@
+.haii {
+  min-height: 100vh;
+  background-image: url('C:/Users/Anany/JobApplicationFullStack/Advanced-app-2/src/assets/images/usermodules/application.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  float: left; /* Float the image to the left */
+}
+.full{
+  display: flex;
+}
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.application-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif; /* Beautiful font for header */
+}
+
+.input-group label {
+  font-family: 'Poppins', sans-serif; /* Aesthetic font for label */
+}
+#form-container {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  /* border-radius: 10px; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #616161, #212121); /* Gradient background */
+  background-size: 400% 400%; /* Increase background size */
+  color: #ffffff;
+  animation: gradientAnimation 15s ease infinite; /* Apply animation */
+  /* margin-left: 30px; */
+}
+.input-group {
+  margin-bottom: 20px; /* Add space between input groups */
+}
+
+label {
+  display: block; /* Display labels as block elements for better spacing */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: calc(100% - 22px); /* Adjust input field width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #2a68ff;
+}
+
+textarea.input-field {
+  height: 100px;
+  resize: vertical;
+}
+
+#submit {
+  background-color: #2a68ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #1e4eb9;
+}
+
+/* .haii{
+    min-height: 100vh;
+    background-image:url('C:/Users/Anany/JobApplicationFullStack/Advanced-app-2/src/assets/images/usermodules/application.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .full{
+    display:flex;
+  }
+     #form-container {
+      max-width: 400px;
+      margin-left: 10%;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 100px 100px rgba(0, 0, 0, 0.1);
+      background-color: transparent;
+    }
+    
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+    
+    .input-field:focus {
+      border-color: #2a68ff;
+    }
+    
+    textarea.input-field {
+      height: 100px;
+      resize: vertical;
+    }
+    
+    #submit {
+      background-color: #2a68ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    #submit:hover {
+      background-color: #1e4eb9;
+    }
+    
+    #title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .form-container .rowTab {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .form-container .labels {
+      flex: 1;
+    }
+    
+    .form-container .rightTab {
+      flex: 2;
+    }
+    
+    .dropdown {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    .radio-buttons {
+      margin-right: 5px;
+    }
+    
+    .checkbox {
+      margin-bottom: 5px;
+    }
+    
+    #comments {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+    
+    #submit {
+      background-color: lightgreen;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    } */

@@ -1,0 +1,34 @@
+.containerss {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 75px;
+    
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  tbody td {
+    padding: 8px;
+  }
+  #ashmi {
+    padding: 6px 12px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  #ashmi1{
+    padding: 6px 12px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }

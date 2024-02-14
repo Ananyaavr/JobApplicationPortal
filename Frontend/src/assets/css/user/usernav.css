@@ -1,0 +1,22 @@
+#userli{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    flex-direction: row;
+}
+#userli:hover::before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #2a68ff;
+    right: 0;
+    bottom: -5px;
+    color: #2a68ff;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
